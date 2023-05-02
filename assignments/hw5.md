@@ -8,7 +8,7 @@
 ## Problem 1
 
 > Refer to the weighted directed graph below and adopt the Bellman-Ford to find
-  shortest paths sourced from **vertex $\bf 0$** to all other vertices. Answer the
+  shortest paths sourced frVom **vertex $\bf 0$** to all other vertices. Answer the
   following questions.
 >
 > ![Figure 1](https://github.com/hendraanggrian/IIT-CS430/raw/assets/assignments/hw5_fig1.jpg)
@@ -140,8 +140,8 @@ private static void printRound(int round, Map<Character, Integer> weights) {
 
 Average time complexity of Bellman-Ford's algorithm is $O(V E)$.
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/graph/BellmanFordGraphs.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/graph/BellmanFordGraphsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/graph/BellmanFordGraphs.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/graph/BellmanFordGraphsTest.java)
 
 Which generates this result.
 
@@ -223,8 +223,8 @@ public static boolean isReachable(Graph G, char start, char end) {
 }
 ```
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/graph/ReachableGraphs.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/graph/ReachableGraphsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/graph/ReachableGraphs.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/graph/ReachableGraphsTest.java)
 
 Time complexity of this function is $O(V E)$.
 
@@ -290,7 +290,7 @@ public static boolean isConflict(Graph G, char... events) {
 }
 ```
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/graph/AthleticEvents.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/graph/AthleticEventsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/graph/AthleticEvents.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/graph/AthleticEventsTest.java)
 
 Time complexity of this function is $O(events.E)$.

@@ -1,11 +1,11 @@
-package com.example.graph;
+package com.example.maze;
 
 import org.junit.Test;
 
-import static com.example.graph.MazeGraphs.REACHABLE;
-import static com.example.graph.MazeGraphs.UNREACHABLE;
+import static com.example.maze.ReachableMazes.REACHABLE;
+import static com.example.maze.ReachableMazes.UNREACHABLE;
 
-public class MazeGraphsTest {
+public class ReachableMazesTest {
   @Test
   public void getMinMoves() {
     char[][] maze = new char[10][6];

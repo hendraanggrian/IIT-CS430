@@ -7,6 +7,6 @@ dependencyResolutionManagement.repositories {
     maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
 }
 
-rootProject.name = "testbed"
+rootProject.name = "playground"
 
 include("app")

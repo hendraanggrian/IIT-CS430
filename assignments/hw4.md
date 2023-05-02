@@ -49,8 +49,8 @@ public static int maxProfitGreedy(int[] X, int[] Y, int n, int m) {
 }
 ```
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/SallyWidgetAuctions.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/SallyWidgetAuctionsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/SallyWidgetAuctions.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/SallyWidgetAuctionsTest.java)
 
 ### Using [knapsack problem](https://github.com/hendraanggrian/IIT-CS430/blob/main/backpack_problem.md)
 
@@ -66,15 +66,15 @@ Time complexity is $O(2^m)$ because the function is branching into two nodes
 each recursion level.
 
 ```java
-public static int maxProfitKnapsackRecursive(int[] X, int[] Y, int n, int m) {
+public static int maxProfitKnapsack(int[] X, int[] Y, int n, int m) {
   if (m <= 0 || n <= 0) {
     return 0;
   }
-  int previous = maxProfitKnapsackRecursive(X, Y, n, m - 1);
+  int previous = maxProfitKnapsack(X, Y, n, m - 1);
   if (X[m - 1] > n) {
     return previous;
   }
-  int current = Y[m - 1] + maxProfitKnapsackRecursive(X, Y, n - X[m - 1], m - 1);
+  int current = Y[m - 1] + maxProfitKnapsack(X, Y, n - X[m - 1], m - 1);
   return Math.max(previous, current);
 }
 ```
@@ -128,8 +128,8 @@ public static int[] minLocations(int[] X, int d) {
 }
 ```
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/CellTowerPlacements.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/CellTowerPlacementsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/CellTowerPlacements.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/CellTowerPlacementsTest.java)
 
 ### Subproblem 2B
 
@@ -217,5 +217,5 @@ public static int minCost(int[] cost, int n) {
 
 Time complexity is $O(n)$.
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/ClimbingStairs.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/ClimbingStairsTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/ClimbingStairs.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/ClimbingStairsTest.java)

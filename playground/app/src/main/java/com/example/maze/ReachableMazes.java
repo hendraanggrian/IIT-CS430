@@ -1,10 +1,10 @@
-package com.example.graph;
+package com.example.maze;
 
-public class MazeGraphs {
+public class ReachableMazes {
   public static final char REACHABLE = '.';
   public static final char UNREACHABLE = '*';
 
-  private MazeGraphs() {
+  private ReachableMazes() {
   }
 
   public static int getMinMoves(char[][] maze, int a, int b, int c, int d) {

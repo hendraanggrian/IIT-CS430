@@ -44,8 +44,8 @@ public static boolean isInRange(Tree T, int a, int b) {
 }
 ```
 
-[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/main/java/com/example/tree/DnaTrees.java)
-/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/testbed/app/src/test/java/com/example/tree/DnaTreesTest.java)
+[View full code](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/main/java/com/example/tree/DnaTrees.java)
+/ [test](https://github.com/hendraanggrian/IIT-CS430/blob/main/playground/app/src/test/java/com/example/tree/DnaTreesTest.java)
 
 Searching in balanced binary tree works by halving each traversal, **therefore
 the time complexity is $\bf O(\log n)$**. However, this estimation doesn't
@@ -70,7 +70,7 @@ include the comparison cost.
 
 ```
 # given functions
-size(x): number of internal nodes in the subtree rooted at x
+size(x): Number of internal nodes in the subtree rooted at x
 left(x): left size of node x
 right(x): right size of node x
 
