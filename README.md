@@ -12,4 +12,4 @@ Spring 2023.
 ## Related repositories
 
 - PDF files generated with [markdown-pdf-styles](https://github.com/hendraanggrian/markdown-pdf-styles/)
-- [CLRS Paperback](https://github.com/hendraanggrian/CLRS-Paperback/)
+- Open-book materials [CLRS Paperback](https://github.com/hendraanggrian/CLRS-Paperback/)
